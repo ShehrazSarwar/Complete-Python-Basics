@@ -5,7 +5,7 @@ print(len(Str1))  #len() funtion counts the number of characters
 
 
 #.startswith() and .endswith()
-#boolean funtions
+#boolean funtion
 print(Str1.startswith('S'))
 print(Str1.endswith('S'))
 
@@ -13,6 +13,7 @@ print(Str1.endswith('S'))
 #To find the first occurance postion (index) of any sub string or Character
 #.find(), it's also can take starting index, so that we don't have to check the whole string
 Str2 = "I love python!"
+print(" ".join(Str2))
 print(Str2.find('I'))  #first occurance index
 print(Str2.find('Z'))  #will return -1 if not found
 print(Str2.find("love"))
